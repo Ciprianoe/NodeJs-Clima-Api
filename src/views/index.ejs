@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <% include partials/head.html %>
+    <title>Climate</title>
+</head>
+<body>
+    <div class="pure-form">
+        <fieldset>
+            <input 
+            class="pure-button pure-button-primary"
+            type="button"
+            name="btnLocation"
+            value="Get Location">
+        </fieldset>
+    </div>
+<h1>What's your location? </h1>
+<form class="pure-form">
+    <fieldset>
+        <input type="number" name="latitude" placeholder="Latitud" autofocus step="any" required>
+
+        <input type="number" name="longitude" placeholder="Longitude" autofocus step="any" required>
+
+        <input type="submit" class="pure-button pure-button-primary" value="Go">
+    </fieldset>
+</form>
+
+<% include partials/footer.html %>
+</body>
+</html>
