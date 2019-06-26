@@ -1,0 +1,21 @@
+{
+  "name": "Api-Course-Clima",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.17.1",
+    "forecastio": "^2.0.0",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
